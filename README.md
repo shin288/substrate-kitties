@@ -11,6 +11,7 @@ After cloning from the repo, build the source as:
 ```sh
 cargo build --release
 ```
+Run:
 ```sh
 ./target/release/node-kitties --dev --tmp
 ```
