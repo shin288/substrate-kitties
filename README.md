@@ -4,20 +4,13 @@
 
 A fresh FRAME-based [Substrate](https://www.substrate.io/) node, ready for hacking :rocket:
 
-### Build
+### Build and Run
 
-The `cargo run` command will perform an initial build. Use the following command to build the node
-without launching it:
+After cloning from the repo, build the source as:
 
 ```sh
 cargo build --release
 ```
-
-### Embedded Docs
-
-Once the project has been built, the following command can be used to explore all parameters and
-subcommands:
-
 ```sh
 ./target/release/node-kitties --dev --tmp
 ```
